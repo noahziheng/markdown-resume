@@ -1,4 +1,12 @@
-<p align=center>![](avatar.jpg)</p>
+---
+author: Jérémy VINCENT
+description: Administrateur systèmes et réseaux et développeur autodidacte pendant mon temps libre.
+lang: fr
+header-includes: <link rel="icon" type="image/png" href="https://resume.jvincent.eu/img/favicon.png" />
+pagetitle: Curriculum Vitae - Jérémy VINCENT
+---
+
+![](https://resume.jvincent.eu/img/jeremy.png)
 
 Jérémy VINCENT
 ======
@@ -57,11 +65,6 @@ Gestion d'un parc de 130 ordinateurs et d'une dizaine de serveurs sur 2 sites à
 - Supervision des serveurs virtualisés et physiques.
 - Support aux utilisateurs.
 
-Bénévolat
----------
-**Conférencier, Techies Lab** (Mars 2021)
-Découverte aux jeunes des métiers de l'informatique et initiation à la programmation.
-
 Formations
 ---------
 **BAC+3 Chargé de Projets en Systèmes Informatiques Appliqués**, Pôle Formation Loire-Drôme-Ardèche (2016-2017)
@@ -98,3 +101,8 @@ Certifications
 - **CCNA 2 : Routage et commutation**, Cisco (2017)
 - **CCNA 1 : Notions de base sur les réseaux**, Cisco (2016)
 - **CCNA Discovery : Mise en réseau pour les petites et moyennes entreprises**, Cisco (2016)
+
+Bénévolat
+---------
+**Conférencier, Techies Lab** (Mars 2021)
+Découverte aux jeunes des métiers de l'informatique et initiation à la programmation.
