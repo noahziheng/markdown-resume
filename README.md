@@ -5,7 +5,7 @@ Changing the content or styling of a resume or CV is a relatively common event t
 
 **Still trying to decide if this is the workflow for you? Here are the original markdown files and the two output files for your persual**: 
 
-[Markdown](resume.md) . [HTML](resume.html) . [PDF](resume.pdf) . [Preview](resume.jvincent.eu)
+[Markdown](resume.md) . [HTML](resume.html) . [PDF](resume.pdf) . [Preview](https://resume.jvincent.eu)
 
 We'll need just two tools. Pandoc: the swiss army knife of interconverting file formats, and wkhtmtopdf the precision scalpel (?) of printing HTML to PDFs. Here is the simplest workflow:
 
