@@ -45,7 +45,6 @@ En charge du support local de Saint-Etienne et de la messagerie mutualisé des c
 - Maintenance du matériel informatique.
 - Mise en place de solutions d'impressions, cloud et sécurité.
 - Migration infrastructures techniques clientes.
-- Régie dans des établissements scolaires.
 - Supervision des serveurs virtualisés et physiques.
 - Support aux utilisateurs.
 
@@ -89,9 +88,9 @@ Compétences
 
 **Supervision:** Nagios, Prometheus, Zabbix
 
-**Systèmes:** Conteneurs (Docker et LXC), Linux (Debian, RHEL), Windows Server (AD, DFS, Exchange, RDS, SQL, WSUS),  Virtualisation (Hyper-V, Proxmox, VMware ESX)
+**Systèmes:** Conteneurs (Docker et LXC), Linux (Debian, RHEL), Windows Server (AD, DFS, Exchange, RDS, SQL, WSUS), Virtualisation (Hyper-V, Proxmox, VMware ESX)
 
-**Autres:** Adobe CC, Ansible, Cloudflare, Docker Compose, Git, pfSense, RGPD
+**Autres:** Adobe CC, Ansible, Cloudflare, Docker Compose, Git, Microsoft Office, pfSense, RGPD, Unity
 
 Certifications
 ------
