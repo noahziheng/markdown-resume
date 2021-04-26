@@ -4,16 +4,16 @@
 
 echo
 echo 'Generate Markdown to HTML ...'
-pandoc -s -c css/design.css src/resume.md -o index.html
+pandoc -s -c css/design.css src/resume.md -o resume.html
 echo 'Done'
 
 echo
 echo 'Generate HTML to PDF ...'
-wkhtmltopdf index.html resume.pdf
+wkhtmltopdf resume.html resume.pdf
 
 echo
 echo 'Generate Markdown to HTML + Footer (Download Link) ...'
-pandoc -s -c css/design.css src/resume.md src/footer.md -o index.html
+pandoc -s -c css/design.css src/resume.md src/footer.md -o resume.html
 echo 'Done'
 
 echo

@@ -8,7 +8,7 @@ Changing the content or style of a CV is a relatively common occurrence that can
 
 **Still trying to decide if this is the repo for you? Here are the original markdown files and the two output files for your persual**: 
 
-[Markdown](src/resume.md) . [HTML](index.html) . [PDF](resume.pdf) . [Preview](https://resume.jvincent.eu)
+[Markdown](src/resume.md) . [HTML](resume.html) . [PDF](resume.pdf) . [Preview](https://resume.jvincent.eu)
 
 Use pandoc to convert .md to .html, with styling via a .css file
 
