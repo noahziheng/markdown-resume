@@ -1,6 +1,6 @@
-![](img/resume.png)
-
-The easiest way to make a simple and effective resume!
+<p align="center">
+  <img src="img/resume.png?raw=true"/>
+</p>
 
 Fork repo and edit your resume!
 
