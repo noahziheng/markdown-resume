@@ -1,26 +1,20 @@
-# markdown-resume
-The simplest possible resume workflow from markdown source.
+![](img/resume.png)
 
-Changing the content or styling of a resume or CV is a relatively common event that can be a frustrating, time-consuming hassle. This repo contains starter files for the simplest possible workflow where resume *content* is maintained in a simple markdown file and generating `.html` and `.pdf` output formats can be automated with two tools: `pandoc` and `wkhtmltopdf`. 
+The easiest way to make a simple and effective resume!
 
-**Still trying to decide if this is the workflow for you? Here are the original markdown files and the two output files for your persual**: 
+Fork repo and edit your resume!
 
-[Markdown](resume.md) . [HTML](resume.html) . [PDF](resume.pdf) . [Preview](https://resume.jvincent.eu)
+Changing the content or style of a CV is a relatively common occurrence that can be frustrating. This repo contains starter files for the simplest possible where resume *content* is maintained in a simple markdown file and generating `.html` and `.pdf` output formats can be automated with two tools: `pandoc` and `wkhtmltopdf`. 
 
-We'll need just two tools. Pandoc: the swiss army knife of interconverting file formats, and wkhtmtopdf the precision scalpel (?) of printing HTML to PDFs. Here is the simplest workflow:
+**Still trying to decide if this is the repo for you? Here are the original markdown files and the two output files for your persual**: 
+
+[Markdown](src/resume.md) . [HTML](resume.html) . [PDF](resume.pdf) . [Preview](https://resume.jvincent.eu)
 
 Use pandoc to convert .md to .html, with styling via a .css file
+
 Use wkhtmltopdf to print .html as .pdf
 
-## Convert .md to .html
+## Build Resume
 ```sh
-pandoc -c design.css -o resume.html -s resume.md
+./build.sh
 ```
-
-## Convert .html to .pdf
-```sh
-wkhtmltopdf resume.html resume.pdf
-```
-
-
-

@@ -2,11 +2,11 @@
 author: Jérémy VINCENT
 description: Administrateur systèmes et réseaux et développeur autodidacte pendant mon temps libre.
 lang: fr
-header-includes: <link rel="icon" type="image/png" href="https://resume.jvincent.eu/img/favicon.png" />
+header-includes: <link rel="icon" type="image/png" href="img/resume.png" />
 pagetitle: Curriculum Vitae - Jérémy VINCENT
 ---
 
-![](https://resume.jvincent.eu/img/jeremy.png)
+![](img/jeremy.png)
 
 Jérémy VINCENT
 ======
@@ -64,6 +64,11 @@ Gestion d'un parc de 130 ordinateurs et d'une dizaine de serveurs sur 2 sites à
 - Supervision des serveurs virtualisés et physiques.
 - Support aux utilisateurs.
 
+Bénévolat
+---------
+**Conférencier, Techies Lab** (Mars 2021)
+Découverte aux jeunes des métiers de l'informatique et initiation à la programmation.
+
 Formations
 ---------
 **BAC+3 Chargé de Projets en Systèmes Informatiques Appliqués**, Pôle Formation Loire-Drôme-Ardèche (2016-2017)
@@ -75,7 +80,7 @@ Formations
 **BEP Technicien d'études du bâtiment - Économie et gestion - Télécom et Réseaux**, Lycée Benoit Fourneyron (2009-2011)
 
 Compétences
-------
+---------
 **Cloud:** Gestion de zone DNS et NDD, Serveurs web (Apache, Nginx), Microsoft 365 (Azure, Exchange, SharePoint), SEO
 
 **Langages de commandes:** Bash, PowerShell, Python
@@ -93,15 +98,10 @@ Compétences
 **Autres:** Adobe CC, Ansible, Cloudflare, Docker Compose, Git, Microsoft Office, pfSense, RGPD, Unity
 
 Certifications
-------
+---------
 - **SecNumAcadémie**, ANSSI (2020)
 - **L'atelier RGPD**, CNIL (2019)
 - **LPIC-1 : Linux Professional Institute**, Cisco (2017)
 - **CCNA 2 : Routage et commutation**, Cisco (2017)
 - **CCNA 1 : Notions de base sur les réseaux**, Cisco (2016)
 - **CCNA Discovery : Mise en réseau pour les petites et moyennes entreprises**, Cisco (2016)
-
-Bénévolat
----------
-**Conférencier, Techies Lab** (Mars 2021)
-Découverte aux jeunes des métiers de l'informatique et initiation à la programmation.
