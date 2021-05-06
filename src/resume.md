@@ -15,7 +15,7 @@ Jérémy VINCENT
 
 #### Après une activité entrepreneuriale enrichissante dans le domaine du jeux vidéo, j'accompagne des entreprises dans la gestion de son SI et dans leur virage digital. Je suis à l'écoute des solutions innovantes afin de répondre au mieux au business.
 
-###### [jvincent.eu](https://jvincent.eu) . [linkedin.com/in/jvin042](https://www.linkedin.com/in/jvin042) . pro@jvincent.eu
+###### [jvincent.eu](https://jvincent.eu) . [linkedin.com/in/jvin042](https://www.linkedin.com/in/jvin042) . pro@jvincent.eu . 06 23 41 36 66
 
 Expériences
 ---------

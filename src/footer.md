@@ -1,1 +1,1 @@
-###### [Télécharger le CV au format PDF](resume.pdf) . Dernière Actualisation : 26 Avril 2021
+###### [Télécharger le CV au format PDF](resume.pdf) . Dernière Actualisation : 6 Mai 2021
