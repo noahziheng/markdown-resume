@@ -1,107 +1,66 @@
 ---
-author: Jérémy VINCENT
-description: Administrateur systèmes et réseaux et développeur autodidacte pendant mon temps libre.
-lang: fr
+author: Noah Gao
+description: My resume
+lang: zh-CN
 header-includes: <link rel="icon" type="image/png" href="img/resume.png" />
-pagetitle: Curriculum Vitae - Jérémy VINCENT
+pagetitle: 个人简历 - 高梓恒 - 前端工程师
 ---
 
-![](img/jeremy.png)
+![](img/noah.png)
 
-Jérémy VINCENT
+高梓恒
 ======
 
-###### 28 ans . Habite à La Talaudière
+###### Web 前端 2 年工作经验 北京/杭州
 
-#### Après une activité entrepreneuriale enrichissante dans le domaine du jeux vidéo, j'accompagne des entreprises dans la gestion de son SI et dans leur virage digital. Je suis à l'écoute des solutions innovantes afin de répondre au mieux au business.
+#### 热爱并能熟练进行 JavaScript/TypeScript 开发，有 2 年电商业务前端工作经验，对大前端/全栈/云原生/前端工程化方向具有浓厚兴趣
 
-###### [jvincent.eu](https://jvincent.eu) . [linkedin.com/in/jvin042](https://www.linkedin.com/in/jvin042) . [pro@jvincent.eu](mailto:pro@jvincent.eu) . [06 23 41 36 66](tel:+33623413666)
+###### [noahgao.net](https://noahgao.net) . [https://github.com/noahziheng](https://https://github.com/noahziheng) . [noahgaocn@outlook.com](mailto:noahgaocn@outlook.com) . [+86 18602691005](tel:+8618602691005)
 
-Expériences
+工作经验
 ---------
-**Administrateur Systèmes et Réseaux, C'PRO** (Octobre 2020 - Aujourd'hui)
+**前端工程师, 阿里巴巴集团-淘系技术部** (2019.7 - 至今)
 
-En charge du support local de Saint-Etienne et de la messagerie mutualisé des clients CPRO.
+先后在淘系的天猫行业、本地化团队负责前端开发工作
 
-- Assure les tickets de niveau 2 à 3.
-- Dispatche des demandes aux équipes.
-- Maintenance du matériel informatique.
-- Supervision des serveurs virtualisés et physiques.
-- Support aux utilisateurs.
+- 独立负责开发/维护单个大行业业务、参与开发轻店业务
+- 负责业务在 FaaS/Serverless 的实践，主导建设了业务域基础Node服务，与架构团队合作沉淀了若干内部基础库
+- 负责维护业务内部中后台业务，并结合业务及集团相关背景，沉淀了合理的微前端一体化研发解决方案
+- 技术栈包括 Rax + React + Midway(Node.js) + 内部工具链
 
-**Président et lead développeur, Casual Studio** (Mars 2019 - Octobre 2020)
+**前端开发实习生, 下厨房** (2018.10 - 2019.4)
 
-- Développement d'un jeu vidéo sur Unity Engine.
-- Développement de partenariats (Epic Games, Google, Microsoft, Sony et Valve)
-- Élaboration de la stratégie commercial (B2C) et marketing.
-- Management de l'entreprise.
-- Mise en place de la stratégie SI de l'entreprise.
+- 参与维护下厨房的 PC 前台、微信小程序、内部后台
+- 独立维护下厨房的百度智能小程序
+- 技术栈为 Vue.js + 小程序 + 内部工具链
 
-**Administrateur Systèmes et Réseaux, XEFI** (Octobre 2017 - Mars 2019)
+**实习前端工程师, 阿里巴巴集团-天猫技术部** (2018.7 - 2018.9)
 
-- Développement de sites web.
-- Formation aux clients.
-- Installation et configuration d’ordinateurs et de serveurs.
-- Maintenance du matériel informatique.
-- Mise en place de solutions d'impressions, cloud et sécurité.
-- Migration infrastructures techniques clientes.
-- Supervision des serveurs virtualisés et physiques.
-- Support aux utilisateurs.
+- 参与维护天猫商家及运营小二使用的中后台业务
+- 技术栈为 React + Weex + 内部工具链
 
-**Chef de projet informatique, Newell Brands** (Septembre 2016 - Septembre 2017)
 
-Transition de l'entreprise vers Microsoft 365.
-(Gestion de projet, Migration et accompagnement de l'ensemble des collaborateurs)
+**嵌入式全栈开发者（外包）, 中国铁路北京局集团-石家庄电务段** (2017.12 - 2018.12)
 
-**Assistant informatique, Newell Brands** (Septembre 2014 - Septembre 2016)
+以学生团队+校外企业合作形式，为国铁提供“机房巡检机器人”项目支持，本人承担全栈开发一号位+团队负责人工作。
 
-Gestion d'un parc de 130 ordinateurs et d'une dizaine de serveurs sur 2 sites à Saint-Etienne et Paris.
+- 使用 Vue.js + Element UI + Flask/Python 提供前端控制面板
+- 使用 Python + Docker 建构嵌入式设备内部应用
 
-- Gestion et contrôle des sauvegardes.
-- Formation et rédaction de procédures.
-- Maintenance du matériel informatique.
-- Migration des anciens serveurs et applicatifs vers des nouveaux serveurs.
-- Supervision des serveurs virtualisés et physiques.
-- Support aux utilisateurs.
-
-Bénévolat
+教育经历
 ---------
-**Conférencier, Techies Lab** (Mars 2021)
-Découverte aux jeunes des métiers de l'informatique et initiation à la programmation.
+**天津科技大学 电子信息与自动化学院 自动化专业**, 本科 工学学士 (2015-2019)
 
-Formations
+技能树
 ---------
-**BAC+3 Chargé de Projets en Systèmes Informatiques Appliqués**, Pôle Formation Loire-Drôme-Ardèche (2016-2017)
+**编程语言:** JavaScript/TypeScript(include Web,Node.js), HTML/CSS, Python, C, PHP, Bash, Golang(学习中)
 
-**BTS Services Informatiques aux Organisations - Solutions d’Infrastructure, Systèmes et Réseaux**, Pôle Formation Loire-Drôme-Ardèche (2014-2016)
+**运维:** 熟悉 FaaS/Severless 概念，了解 Kubernetes/Service Mesh(Istio)/Function Compute(Knative)/Docker 并有个人实践, 熟悉 Linux/Nginx/OpenSSH 等系统、工具
 
-**BEP et BAC PRO Systèmes Electroniques Numériques - Télécom et Réseaux**, Lycée Le Marais Sainte Thérèse (2011-2014)
+**前端框架:** React, Vue(2.0), jQuery
 
-**BEP Technicien d'études du bâtiment - Économie et gestion - Télécom et Réseaux**, Lycée Benoit Fourneyron (2009-2011)
-
-Compétences
+荣誉
 ---------
-**Cloud:** Gestion de zone DNS et NDD, Serveurs web (Apache, Nginx), Microsoft 365 (Azure, Exchange, SharePoint), SEO
-
-**Langages de commandes:** Bash, PowerShell, Python
-
-**Langages de programmation:** C#, C++, HTML/CSS, Javascript, Node.js, PHP
-
-**Matériels:** Cisco, Dell, HP, Ubiquiti, Sophos, Stormshield, Watchguard
-
-**Réseaux:** IP, DHCP, DNS, Firewall, LAN/WAN, Proxy, VLAN, VPN
-
-**Supervision:** Nagios, Prometheus, Zabbix
-
-**Systèmes:** Conteneurs (Docker et LXC), Linux (Debian, RHEL), Windows Server (AD, DFS, Exchange, RDS, SQL, WSUS), Virtualisation (Hyper-V, Proxmox, VMware ESX)
-
-**Autres:** Adobe CC, Ansible, Cloudflare, Docker Compose, Git, Microsoft Office, pfSense, RGPD, Unity
-
-Certifications
----------
-- **SecNumAcadémie**, ANSSI (2020)
-- **L'atelier RGPD**, CNIL (2019)
-- **LPIC-1 : Linux Professional Institute**, Cisco (2017)
-- **CCNA 2 : Routage et commutation**, Cisco (2017)
-- **CCNA 1 : Notions de base sur les réseaux**, Cisco (2016)
-- **CCNA Discovery : Mise en réseau pour les petites et moyennes entreprises**, Cisco (2016)
+- **激情极客奖**, 淘系技术部前端组织文化 (2020)
+- **Next 前端工程学位**, 腾讯教育 (2019)
+- **恩智浦杯全国大学生智能汽车竞赛 二等奖** (2018)
