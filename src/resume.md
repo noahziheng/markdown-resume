@@ -27,19 +27,19 @@ description: 高梓恒的简历 - 全栈开发工程师
 
 ### 轻量化云工作区方案（CloudIDE / MarsCode WebIDE）
 
-主导基于容器二层调度的轻量化云工作区方案，支撑内部 CloudIDE 生态与对外的 MarsCode WebIDE，应对高弹性、性能突发与快速就绪场景；并打通从工作区内构建到字节云、火山引擎与 AWS 的托管 FaaS 发布链路。
+主导基于容器二层调度的轻量化云工作区方案，针对高弹性、性能突发与快速就绪场景优化工作区的资源开销与启动效率，支撑内部 CloudIDE 生态与对外的 MarsCode WebIDE 产品；并打通从工作区内构建到字节云、火山引擎与 AWS 的托管 FaaS 发布链路。
 
 ### Trae AI IDE Agent 运行时
 
-基于近端 Rust、云端 Golang 的架构支撑 Trae Chat / Builder / SOLO 等上层 Agent 业务，负责代码架构设计、网络层优化与自定义模型接入。
+面向 IDE 内的 Agent 会话与工具调用场景，以近端 Rust、云端 Golang 的跨语言架构支撑 Trae Chat / Builder / SOLO 等上层 Agent 业务，负责代码架构设计、网络层优化与自定义模型接入。
 
 ### Node.js 应用框架 Gulu / Artus.js
 
-负责字节跳动 Node.js 应用开发框架 Gulu 及其生态的开发与维护，主要贡献社区框架规范 Artus.js，主导重构版本 GuluX 的设计与公司范围内推广。
+负责字节跳动 Node.js 应用开发框架 Gulu 及其生态的开发与维护，主要贡献开源社区框架规范 [Artus.js](https://github.com/artusjs/spec)，主导重构版本 GuluX 的设计与公司范围内推广。
 
 ## 个人项目
 
-- **Homelab** — 跨地域 k3s 集群，声明式配置与基础设施即代码（Ansible / Nix / Terraform / SOPS）
+- **Homelab** — 跨地域 k3s 集群，声明式配置与基础设施即代码（Ansible / Nix / Terraform / SOPS）· [ops-stack](https://github.com/noahziheng/ops-stack)
 - **Agent 编排** — 基于 Hermes、Matrix 与 MCP 的个人 Agent 编排体系
 - **Harness 研究** — 跟踪 deepseek-harness、openclaw 等开源实现
 
