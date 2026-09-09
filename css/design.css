@@ -77,12 +77,12 @@ h2 {
 
 h2:first-of-type { margin-top: 16px; }
 
-/* 个人探索的小标题 */
+/* 项目小标题 */
 h3 {
-  margin: 11px 0 2px;
-  font-size: 10.6pt;
+  margin: 10px 0 2px;
+  font-size: 10.5pt;
   font-weight: 600;
-  color: var(--ink);
+  color: var(--accent);
 }
 
 p { margin: 0 0 6px; }
