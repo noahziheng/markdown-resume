@@ -70,7 +70,7 @@ def render_html(md_path: Path, css_rel: str) -> str:
         sys.exit("缺少依赖：markdown。请先运行 pip install markdown")
 
     meta, body_md = parse_front_matter(md_path.read_text(encoding="utf-8"))
-    body = markdown.markdown(body_md, extensions=["extra", "sane_lists"])
+    body = markdown.markdown(body_md, extensions=["extra", "sane_lists", "attr_list"])
     return HTML_TEMPLATE.format(
         lang=meta.get("lang", "zh-CN"),
         title=html.escape(meta.get("title", "Resume")),
