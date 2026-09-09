@@ -9,20 +9,42 @@ description: 高梓恒的简历 - 全栈开发工程师
 
 **全栈开发工程师 · 7 年经验 · 北京**
 
-7 年研发经验，覆盖前端、服务端与开发者基础设施。擅长容器调度、运行时架构与开发者工具链，主导过云 IDE 轻量化工作区方案与 Agent 云端任务调度服务。
+研发经验覆盖前端、服务端与开发者基础设施，擅长容器调度、运行时架构与工具链建设，主导过 Agent 云端任务调度服务与云 IDE 轻量化工作区方案。
 
-[noahgao.net](https://noahgao.net) · [github.com/noahziheng](https://github.com/noahziheng) · [noahgaocn@outlook.com](mailto:noahgaocn@outlook.com) · +86 186-0269-1005
+[noahgao.net](https://noahgao.net) · [github.com/noahziheng](https://github.com/noahziheng)<br>[noahgaocn@outlook.com](mailto:noahgaocn@outlook.com) · +86 186-0269-1005
 
 ## 工作经历
 
 **字节跳动**｜全栈开发工程师 · Dev Infra / Trae *2021.09 – 至今*
 
-- **Trae 云端任务（Remote Agent）** 主导基于 agent-sandbox 的总体方案与调度服务，为 IDE 内 Agent 提供隔离的执行环境与生命周期管理，并推动其向 Managed Agent 演进
-- **Trae AI Agent 运行时** 从 0 到 1 参与 Agent 能力建设，负责代码架构设计、网络层优化与自定义模型接入，并持续演进 Harness 能力
-- **CloudIDE 云工作区** 主导基于容器二层调度的轻量化工作区方案，降低工作区资源开销与启动耗时，支撑内部 CloudIDE 与对外的 MarsCode WebIDE
-- **MarsCode / Coze Plugin 部署系统** 建设插件与应用部署系统，支持从工作区内构建并发布到字节云、火山引擎与 AWS 的托管 FaaS
-- **Node.js 应用框架** 负责 Gulu 框架及其生态的开发与维护，主要贡献开源规范 [Artus.js](https://github.com/artusjs/spec)，主导 GuluX 重构版本的设计与公司范围内推广
-{: .timeline }
+<div class="timeline">
+
+<div class="node">
+<div class="name">Trae 云端任务（Remote Agent）</div>
+<div class="desc">主导基于 agent-sandbox 的总体方案与调度服务，为 IDE 内 Agent 提供隔离执行环境与生命周期管理，并推动其向 Managed Agent 演进</div>
+</div>
+
+<div class="node">
+<div class="name">Trae AI Agent 运行时</div>
+<div class="desc">从 0 到 1 参与 Agent 能力建设，负责代码架构、网络层优化与自定义模型接入，持续演进 Harness 能力</div>
+</div>
+
+<div class="node">
+<div class="name">CloudIDE 云工作区</div>
+<div class="desc">主导基于容器二层调度的轻量化工作区方案，降低资源开销与启动耗时，支撑内部 CloudIDE 与对外的 MarsCode WebIDE</div>
+</div>
+
+<div class="node">
+<div class="name">MarsCode / Coze Plugin 部署系统</div>
+<div class="desc">建设插件与应用部署系统，支持从工作区内构建并发布到内部云平台、火山引擎与 AWS 的托管 FaaS</div>
+</div>
+
+<div class="node">
+<div class="name">Node.js 应用框架</div>
+<div class="desc">负责 Gulu 框架及生态的开发与维护，主要贡献开源规范 <a href="https://github.com/artusjs/spec">Artus.js</a>，主导 GuluX 重构版本的设计与推广</div>
+</div>
+
+</div>
 
 **阿里巴巴**｜前端开发工程师 · 淘系技术部 *2019.07 – 2021.08*
 
