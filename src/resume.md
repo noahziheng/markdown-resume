@@ -1,68 +1,70 @@
 ---
+title: 高梓恒 - 全栈开发工程师
 author: Noah Gao
-description: My resume
 lang: zh-CN
-header-includes: <link rel="icon" type="image/png" href="img/resume.png" />
-pagetitle: 个人简历 - 高梓恒 - 全栈开发工程师
+description: 高梓恒的简历 - 全栈开发工程师
 ---
 
-![](img/noah.png)
+# 高梓恒（Noah Gao）
 
-高梓恒
-======
+**全栈开发工程师 · 7 年经验 · 北京**
 
-###### 全栈开发 6 年工作经验 北京
+研发经验覆盖前端、服务端与开发者基础设施，擅长容器调度、运行时架构与工具链建设，主导过 Agent 云端任务调度服务与云 IDE 轻量化工作区方案。
 
-#### 热爱并能熟练进行大前端、服务端的业务和架构组件开发，对云原生、AI IDE、Agent 运行时方向具有极大兴趣和一定经验
+[noahgao.net](https://noahgao.net) · [github.com/noahziheng](https://github.com/noahziheng)<br>[noahgaocn@outlook.com](mailto:noahgaocn@outlook.com) · +86 186-0269-1005
 
-###### [noahgao.net](https://noahgao.net) . [https://github.com/noahziheng](https://https://github.com/noahziheng) . [noahgaocn@outlook.com](mailto:noahgaocn@outlook.com) . [+86 18602691005](tel:+8618602691005)
+## 工作经历
 
-工作经验
----------
-**研发工程师，字节跳动-Dev Infra & Stone-MarsCode (2021.9 - 至今)
+**字节跳动**｜全栈开发工程师 · Dev Infra / Trae *2021.09 – 至今*
 
-- 负责开发并维护字节跳动 Node.js 应用开发框架 Gulu 及其生态，参与推进和主力贡献了其在社区发起的框架核心规范 [Artus.js](https://github.com/artusjs/spec)，主导开发并在字节跳动公司范围内推广了其重构大版本 GuluX，同时负责该框架的工具链服务端和数据统计与分析工作
-- 参与开发并维护 CloudIDE 工作区基建设施，支持字节内部 CloudIDE 生态及对外的 MarsCode WebIDE 产品，主导上线了基于容器二层调度的 *轻量化云工作区* 方案，有效支持了高弹性、性能突发、要求就绪速度的场景
-- 参与开发并维护了 Trae AI IDE 的 AI Agent 能力，基于近端 Rust 云端 Golang 的架构支撑 Trae Chat/Builder/SOLO 等上层 Agent 业务，主要负责代码架构设计、网络层优化、自定义模型接入等事项
-- 参与开发并维护了在 MarsCode / Coze 中使用的函数/应用部署能力，打通了由工作区内构建并按需发布到字节云 / 火山引擎 / AWS 中的托管 FaaS 服务
+<div class="timeline">
 
-**前端工程师, 阿里巴巴集团-淘系技术部** (2019.7 - 2021.8)
+<div class="node">
+<div class="name">Trae 云端任务平台</div>
+<div class="desc">主导总体方案与调度服务，为 Agent 提供隔离的执行环境与生命周期管理，支撑任务稳定运行，并推动其向 Managed Agent 演进</div>
+</div>
 
-先后在淘系的天猫行业、本地化团队负责前端开发工作
+<div class="node">
+<div class="name">Trae AI Agent 运行时</div>
+<div class="desc">从 0 到 1 参与 Agent 能力建设，负责代码架构、网络层优化与自定义模型接入，持续演进 Harness 能力</div>
+</div>
 
-- 负责开发并维护天猫行业和轻店的业务前端
-- 负责业务在 FaaS/Serverless 的实践，主导建设了业务域基础Node服务，与架构团队合作沉淀了若干内部基础库
-- 负责维护业务内部中后台业务，并结合业务及集团相关背景，沉淀了合理的微前端一体化研发解决方案
+<div class="node">
+<div class="name">CloudIDE 云工作区</div>
+<div class="desc">主导基于容器二层调度的轻量化工作区方案，降低资源开销与启动耗时，支撑内部 CloudIDE 与对外的 MarsCode WebIDE</div>
+</div>
 
-**前端开发实习生, 下厨房** (2018.10 - 2019.4)
+<div class="node">
+<div class="name">MarsCode / Coze Plugin 部署能力</div>
+<div class="desc">面向用户侧，打通从工作区内构建到内部云平台、火山引擎与 AWS 托管 FaaS 的发布链路</div>
+</div>
 
-- 参与维护下厨房的 PC 前台、微信小程序、内部后台
-- 独立维护下厨房的百度智能小程序
+<div class="node">
+<div class="name">Node.js 应用框架</div>
+<div class="desc">负责 Gulu 框架及生态的开发与维护，主要贡献开源规范 <a href="https://github.com/artusjs/spec">Artus.js</a>，主导 GuluX 重构版本的设计与推广</div>
+</div>
 
-**实习前端工程师, 阿里巴巴集团-天猫技术部** (2018.7 - 2018.9)
+</div>
 
-- 参与维护天猫商家及运营小二使用的中后台业务
+**阿里巴巴**｜前端开发工程师 · 淘系技术部 *2019.07 – 2021.08*
 
-**嵌入式全栈开发者（外包）, 中国铁路北京局集团-石家庄电务段** (2017.12 - 2018.12)
+负责天猫行业与轻店业务的前端开发，沉淀微前端一体化研发方案；主导业务域基础 Node 服务建设，推动业务在 FaaS / Serverless 上落地。
 
-以学生团队 + 校外企业合作形式，为国铁提供“机房巡检机器人”项目支持，本人承担全栈开发一号位和团队负责人的工作。
+## 个人项目
 
-- 使用 Vue.js + Element UI + Flask/Python 提供前端控制面板
-- 使用 Python + Docker 建构嵌入式设备内部应用
+- **Homelab**：自建并运维跨三地的基础设施，涵盖 Kubernetes 集群与各类流量基建，把个人服务按生产环境标准管理。
+- **Agent 编排**：搭建个人 Agent 编排体系，让运维巡检与信息检索等重复工作自动完成；同时研究开源 Harness 实现的设计。
 
-教育经历
----------
-**天津科技大学 电子信息与自动化学院 自动化专业**, 本科 工学学士 (2015-2019)
+## 技能
 
-技能树
----------
-**编程语言:** Golang, Rust, Python, JavaScript/TypeScript(include Web,Node.js), HTML/CSS
+- **语言**：Go、Rust、Python、TypeScript / JavaScript
+- **基础设施**：Linux、Docker、Kubernetes / k3s、Ansible、Terraform、Nix、SOPS、ArgoCD、CI/CD
+- **其他**：FaaS / Serverless、Nginx、微前端
 
-**运维:** 熟悉 FaaS/Severless 概念，了解 Kubernetes/Service Mesh/Function Compute/Docker 并有个人实践, 熟悉 Linux/Nginx/OpenSSH 等系统、工具
+## 教育
 
-荣誉
----------
-- **Spot Bonus**, 字节跳动 Dev Infra & Flow-CloudIDE (2024 Q2)
-- **激情极客奖**, 淘系技术部前端组织文化 (2020)
-- **Next 前端工程学位**, 腾讯教育 (2019)
-- **恩智浦杯全国大学生智能汽车竞赛 二等奖** (2018)
+天津科技大学 · 自动化 · 本科（工学学士） *2015 – 2019*
+
+## 荣誉
+
+字节跳动 Spot Bonus（多次）、淘系技术部激情极客奖（2020）、恩智浦杯全国大学生智能汽车竞赛二等奖（2018）

@@ -1,413 +1,206 @@
-/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
-
-/* Document
+/* ==========================================================================
+   Resume theme — print first, screen friendly
+   一栏布局 / A4 打印优先 / 中文排版优化 / 单色 + 一处点缀色
    ========================================================================== */
 
-/**
- * 1. Correct the line height in all browsers.
- * 2. Prevent adjustments of font size after orientation changes in iOS.
- */
-
- html {
-    font-family: sans-serif;
-    line-height: 1.15; /* 1 */
-    -webkit-text-size-adjust: 100%; /* 2 */
-  }
-  
-  /* Sections
-     ========================================================================== */
-  
-  /**
-   * Remove the margin in all browsers.
-   */
-  
-  body {
-    margin: 0;
-  }
-  
-  /**
-   * Render the `main` element consistently in IE.
-   */
-  
-  main {
-    display: block;
-  }
-  
-  /**
-   * Correct the font size and margin on `h1` elements within `section` and
-   * `article` contexts in Chrome, Firefox, and Safari.
-   */
-  
-  h1 {
-    font-size: 2em;
-    margin: 0.67em 0;
-  }
-  
-  /* Grouping content
-     ========================================================================== */
-  
-  /**
-   * 1. Add the correct box sizing in Firefox.
-   * 2. Show the overflow in Edge and IE.
-   */
-  
-  hr {
-    box-sizing: content-box; /* 1 */
-    height: 0; /* 1 */
-    overflow: visible; /* 2 */
-  }
-  
-  /**
-   * 1. Correct the inheritance and scaling of font size in all browsers.
-   * 2. Correct the odd `em` font sizing in all browsers.
-   */
-  
-  pre {
-    font-family: monospace, monospace; /* 1 */
-    font-size: 1em; /* 2 */
-  }
-  
-  /* Text-level semantics
-     ========================================================================== */
-  
-  /**
-   * Remove the gray background on active links in IE 10.
-   */
-  
-  a {
-    background-color: transparent;
-  }
-  
-  /**
-   * 1. Remove the bottom border in Chrome 57-
-   * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
-   */
-  
-  abbr[title] {
-    border-bottom: none; /* 1 */
-    text-decoration: underline; /* 2 */
-    text-decoration: underline dotted; /* 2 */
-  }
-  
-  /**
-   * Add the correct font weight in Chrome, Edge, and Safari.
-   */
-  
-  b,
-  strong {
-    font-weight: bolder;
-  }
-  
-  /**
-   * 1. Correct the inheritance and scaling of font size in all browsers.
-   * 2. Correct the odd `em` font sizing in all browsers.
-   */
-  
-  code,
-  kbd,
-  samp {
-    font-family: monospace, monospace; /* 1 */
-    font-size: 1em; /* 2 */
-  }
-  
-  /**
-   * Add the correct font size in all browsers.
-   */
-  
-  small {
-    font-size: 80%;
-  }
-  
-  /**
-   * Prevent `sub` and `sup` elements from affecting the line height in
-   * all browsers.
-   */
-  
-  sub,
-  sup {
-    font-size: 75%;
-    line-height: 0;
-    position: relative;
-    vertical-align: baseline;
-  }
-  
-  sub {
-    bottom: -0.25em;
-  }
-  
-  sup {
-    top: -0.5em;
-  }
-  
-  /* Embedded content
-     ========================================================================== */
-  
-  /**
-   * Remove the border on images inside links in IE 10.
-   */
-  
-  img {
-    border-style: none;
-  }
-  
-  /* Forms
-     ========================================================================== */
-  
-  /**
-   * 1. Change the font styles in all browsers.
-   * 2. Remove the margin in Firefox and Safari.
-   */
-  
-  button,
-  input,
-  optgroup,
-  select,
-  textarea {
-    font-family: inherit; /* 1 */
-    font-size: 100%; /* 1 */
-    line-height: 1.15; /* 1 */
-    margin: 0; /* 2 */
-  }
-  
-  /**
-   * Show the overflow in IE.
-   * 1. Show the overflow in Edge.
-   */
-  
-  button,
-  input { /* 1 */
-    overflow: visible;
-  }
-  
-  /**
-   * Remove the inheritance of text transform in Edge, Firefox, and IE.
-   * 1. Remove the inheritance of text transform in Firefox.
-   */
-  
-  button,
-  select { /* 1 */
-    text-transform: none;
-  }
-  
-  /**
-   * Correct the inability to style clickable types in iOS and Safari.
-   */
-  
-  button,
-  [type="button"],
-  [type="reset"],
-  [type="submit"] {
-    -webkit-appearance: button;
-  }
-  
-  /**
-   * Remove the inner border and padding in Firefox.
-   */
-  
-  button::-moz-focus-inner,
-  [type="button"]::-moz-focus-inner,
-  [type="reset"]::-moz-focus-inner,
-  [type="submit"]::-moz-focus-inner {
-    border-style: none;
-    padding: 0;
-  }
-  
-  /**
-   * Restore the focus styles unset by the previous rule.
-   */
-  
-  button:-moz-focusring,
-  [type="button"]:-moz-focusring,
-  [type="reset"]:-moz-focusring,
-  [type="submit"]:-moz-focusring {
-    outline: 1px dotted ButtonText;
-  }
-  
-  /**
-   * Correct the padding in Firefox.
-   */
-  
-  fieldset {
-    padding: 0.35em 0.75em 0.625em;
-  }
-  
-  /**
-   * 1. Correct the text wrapping in Edge and IE.
-   * 2. Correct the color inheritance from `fieldset` elements in IE.
-   * 3. Remove the padding so developers are not caught out when they zero out
-   *    `fieldset` elements in all browsers.
-   */
-  
-  legend {
-    box-sizing: border-box; /* 1 */
-    color: inherit; /* 2 */
-    display: table; /* 1 */
-    max-width: 100%; /* 1 */
-    padding: 0; /* 3 */
-    white-space: normal; /* 1 */
-  }
-  
-  /**
-   * Add the correct vertical alignment in Chrome, Firefox, and Opera.
-   */
-  
-  progress {
-    vertical-align: baseline;
-  }
-  
-  /**
-   * Remove the default vertical scrollbar in IE 10+.
-   */
-  
-  textarea {
-    overflow: auto;
-  }
-  
-  /**
-   * 1. Add the correct box sizing in IE 10.
-   * 2. Remove the padding in IE 10.
-   */
-  
-  [type="checkbox"],
-  [type="radio"] {
-    box-sizing: border-box; /* 1 */
-    padding: 0; /* 2 */
-  }
-  
-  /**
-   * Correct the cursor style of increment and decrement buttons in Chrome.
-   */
-  
-  [type="number"]::-webkit-inner-spin-button,
-  [type="number"]::-webkit-outer-spin-button {
-    height: auto;
-  }
-  
-  /**
-   * 1. Correct the odd appearance in Chrome and Safari.
-   * 2. Correct the outline style in Safari.
-   */
-  
-  [type="search"] {
-    -webkit-appearance: textfield; /* 1 */
-    outline-offset: -2px; /* 2 */
-  }
-  
-  /**
-   * Remove the inner padding in Chrome and Safari on macOS.
-   */
-  
-  [type="search"]::-webkit-search-decoration {
-    -webkit-appearance: none;
-  }
-  
-  /**
-   * 1. Correct the inability to style clickable types in iOS and Safari.
-   * 2. Change font properties to `inherit` in Safari.
-   */
-  
-  ::-webkit-file-upload-button {
-    -webkit-appearance: button; /* 1 */
-    font: inherit; /* 2 */
-  }
-  
-  /* Interactive
-     ========================================================================== */
-  
-  /*
-   * Add the correct display in Edge, IE 10+, and Firefox.
-   */
-  
-  details {
-    display: block;
-  }
-  
-  /*
-   * Add the correct display in all browsers.
-   */
-  
-  summary {
-    display: list-item;
-  }
-  
-  /* Misc
-     ========================================================================== */
-  
-  /**
-   * Add the correct display in IE 10+.
-   */
-  
-  template {
-    display: none;
-  }
-  
-  /**
-   * Add the correct display in IE 10.
-   */
-  
-  [hidden] {
-    display: none;
-  }
-  
-
-html,body {        
-    margin: auto;
-    max-width: 60em; 
+:root {
+  --ink: #1a1a1a;
+  --muted: #5b6470;
+  --accent: #0f4c81;
+  --rule: #dfe3e8;
 }
 
+* { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  color: var(--ink);
+  font-family: "Noto Sans CJK SC", "Source Han Sans SC", "PingFang SC",
+    "Hiragino Sans GB", "Microsoft YaHei", system-ui, -apple-system, sans-serif;
+  font-size: 10.2pt;
+  line-height: 1.6;
+  background: #eef1f4;
+}
+
+.page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 36px 56px;
+  background: #fff;
+}
+
+/* ---------- 头部 ---------- */
+
+h1 {
+  margin: 0 0 4px;
+  font-size: 21pt;
+  line-height: 1.2;
+  letter-spacing: .01em;
+}
+
+/* 姓名下一行：定位 */
+h1 + p { margin: 0 0 5px; }
+
+h1 + p strong {
+  color: var(--accent);
+  font-size: 11pt;
+  font-weight: 600;
+}
+
+/* 摘要 */
+h1 + p + p {
+  margin: 0 0 8px;
+  color: #333;
+}
+
+/* 联系方式，并用一条主色横线收口 */
+h1 + p + p + p {
+  margin: 0;
+  padding-bottom: 8px;
+  font-size: 9.4pt;
+  color: var(--muted);
+  border-bottom: 2px solid var(--accent);
+}
+
+/* ---------- 章节 ---------- */
+
+h2 {
+  margin: 18px 0 8px;
+  padding-bottom: 4px;
+  font-size: 11.8pt;
+  color: var(--accent);
+  letter-spacing: .02em;
+  border-bottom: 1px solid var(--rule);
+}
+
+h2:first-of-type { margin-top: 16px; }
+
+/* 项目小标题 */
+h3 {
+  margin: 10px 0 2px;
+  font-size: 10.5pt;
+  font-weight: 600;
+  color: var(--accent);
+}
+
+p { margin: 0 0 6px; }
+
+/* 段首加粗：公司名 / 经历标签，作为视觉锚点 */
+p > strong:first-child {
+  color: var(--accent);
+  font-weight: 600;
+}
+
+/* 日期等辅助信息 */
+em {
+  font-style: normal;
+  font-weight: 400;
+  color: var(--muted);
+}
+
+/* ---------- 列表 ---------- */
+
+ul {
+  margin: 0 0 8px;
+  padding-left: 1.05em;
+}
+
+/* 公司行与其条目之间收紧，公司之间留白 */
+p + ul { margin-top: 2px; }
+ul + p { margin-top: 10px; }
+
+li {
+  margin-bottom: 4px;
+  page-break-inside: avoid;
+}
+
+li::marker { color: var(--accent); }
+
+li > strong:first-child {
+  color: var(--accent);
+  font-weight: 600;
+}
+
+/* ---------- 时间轴：同一公司内的多段经历 ---------- */
+
+.timeline {
+  border-left: 2px solid #b8c4d0;
+  margin: 6px 0 10px 4px;
+  padding-left: 14px;
+}
+
+.node {
+  position: relative;
+  margin-bottom: 7px;
+}
+
+.node:last-child { margin-bottom: 0; }
+
+.node::before {
+  content: "";
+  position: absolute;
+  left: -19px;
+  top: 7px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--accent);
+}
+
+.node .name {
+  font-weight: 600;
+  color: var(--accent);
+  margin-bottom: 1px;
+}
+
+.node .desc {
+  color: var(--ink);
+}
+
+/* ---------- 链接 ---------- */
+
 a {
-  color: #4183c4;
+  color: var(--accent);
   text-decoration: none;
 }
 
-body {
-  padding: 30px;
-  font-size: 14px;
+a:hover { text-decoration: underline; }
+
+/* ==========================================================================
+   打印
+   ========================================================================== */
+
+@page {
+  size: A4;
+  margin: 10mm 12mm;
 }
 
-img {
-  border-radius: 50%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  
-}
+@media print {
+  html, body { background: #fff; }
 
-h1 {
-  font-size: 37px;
-  color: #000;
-  text-align: center;
-}
+  body {
+    font-size: 9.9pt;
+    line-height: 1.6;
+  }
 
-h2 {
-  font-size: 24px;
-  border-bottom: 1px solid #ccc;
-  color: #4183c4;
-}
+  .page {
+    max-width: none;
+    margin: 0;
+    padding: 0;
+  }
 
-h3 {
-  font-size: 18px;
-  color: #333;
-}
+  a { color: inherit; }
 
-h4 {
-  font-size: 16px;
-  color: #333;
-  text-align: center;
-  -webkit-margin-before: 0.02em;
-  -webkit-margin-after: 0.02em;
-}
+  h2 { margin-top: 16px; }
 
-h5 {
-  font-size: 14px;
-  color: #333;
-  text-align: center;
-}
+  h3 { margin-top: 9px; }
 
-h6 {
-  color: #777;
-  font-size: 14px;
-  font-weight: bold;
-  margin: 10px 0 10px;
-  text-align: center;
+  li { margin-bottom: 5px; }
+
+  /* 避免标题落在页底 */
+  h1, h2, h3 { page-break-after: avoid; }
+
+  p, li { orphans: 3; widows: 3; }
 }
