@@ -20,7 +20,7 @@ description: 高梓恒的简历 - 全栈开发工程师
 <div class="timeline">
 
 <div class="node">
-<div class="name">云端 Agent 任务平台</div>
+<div class="name">Trae 云端任务</div>
 <div class="desc">主导总体方案与调度服务，为 Agent 提供隔离的执行环境与生命周期管理，支撑任务稳定运行，并推动其向 Managed Agent 演进</div>
 </div>
 
@@ -35,8 +35,8 @@ description: 高梓恒的简历 - 全栈开发工程师
 </div>
 
 <div class="node">
-<div class="name">插件与应用托管部署</div>
-<div class="desc">面向用户侧提供部署能力，打通从工作区内构建到内部云平台、火山引擎与 AWS 托管 FaaS 的发布链路</div>
+<div class="name">MarsCode / Coze Plugin 部署能力</div>
+<div class="desc">面向用户侧，打通从工作区内构建到内部云平台、火山引擎与 AWS 托管 FaaS 的发布链路</div>
 </div>
 
 <div class="node">
