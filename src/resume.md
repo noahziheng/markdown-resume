@@ -30,8 +30,8 @@ description: 高梓恒的简历 - 全栈开发工程师
 
 ## 个人项目
 
-- **Homelab**：自建跨三地 k3s 集群，以声明式配置与密钥管理统一运维个人服务（[ops-stack](https://github.com/noahziheng/ops-stack)）。
-- **Agent 与 Harness**：基于 Hermes、Matrix 与 MCP 搭建个人 Agent 编排体系，研究 deepseek-harness 等开源实现。
+- **Homelab**：自建并运维跨三地的 Kubernetes 集群，把个人服务按生产环境标准管理。
+- **Agent 编排**：搭建个人 Agent 编排体系，让运维巡检与信息检索等重复工作自动完成；同时研究开源 Harness 实现的设计。
 
 ## 技能
 
