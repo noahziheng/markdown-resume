@@ -20,7 +20,7 @@ description: 高梓恒的简历 - 全栈开发工程师
 <div class="timeline">
 
 <div class="node">
-<div class="name">Trae 云端任务</div>
+<div class="name">Trae 云端任务平台</div>
 <div class="desc">主导总体方案与调度服务，为 Agent 提供隔离的执行环境与生命周期管理，支撑任务稳定运行，并推动其向 Managed Agent 演进</div>
 </div>
 
